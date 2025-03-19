@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #ffe6f2;
+}
+
+header {
+    background-color: #ff66b2;
+    color: white;
+    padding: 20px;
+}
+
+#logo {
+    width: 150px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+#hero {
+    padding: 50px;
+    background-color: #ff99cc;
+}
+
+.btn {
+    background-color: white;
+    color: #ff66b2;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.cake {
+    background: white;
+    padding: 10px;
+    width: 45%;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 10px;
+}
+
+.cake img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #ff66b2;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ff3385;
+}
+
+.contact-btn {
+    display: inline-block;
+    background: #d63384; /* Deep pink */
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+.contact-btn:hover {
+    background: #c2185b; /* Darker pink */
+}
